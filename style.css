@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Averia Sans Libre" sans-serif ;
+}
+
+body {
+    background: url("https://source.unsplash.com/random");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner{
+    width: 420px;
+    background: transparent;
+    border: 2px solid  #4645464f;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.input-group {
+    position: relative;
+    width: 110%;
+    height: 50px;
+    margin:30px 0;
+
+}
+
+.input-group input{
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #4645464f;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 20px 20px;
+
+}
+.input-group input::placeholder{
+    color: white;
+
+}
+
+.input-group img{
+    position: relative;
+    right: 30px;
+    top: 10%;
+    margin-top: 5px;
+}
+
+.input-group a {
+    font-size: 12px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+.input-group a:hover{
+    text-decoration: underline;
+}
+
+
+.btn {
+    width: 100%;
+    height: 50px;
+    color: purple;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid purple;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    color: white;
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: purple;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .btn:hover::before {
+    width: 160%;
+  }
+  .registrar {
+    text-align: center;
+    margin: 20px 0; 
+  }
+
+  .registrar p {
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+
+  }
+
+  .registrar p a{
+    font-size: 20px;
+    color: rgb(254, 11, 11);
+    font-weight: 700;
+    text-decoration: none;
+}
+.registrar p a:hover{
+ text-decoration: underline;
+}
+    
+
+    
+
+
+
+    
+
+    
+
+
